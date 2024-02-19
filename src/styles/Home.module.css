@@ -1,0 +1,12 @@
+
+.main{
+    padding: 30px 80px;
+    background-color: white;
+}
+
+.logoSection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 20px;
+}

@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 
 const colourOption = {color: '#009BC9'};
 
-const canadaLine: [number, number][] [] = [
+const canadaLine: [number, number][][] = [
     [
         [49.285833, -123.111667], //waterfront
         [49.28202, -123.11875], //vancouver city center
@@ -127,5 +127,5 @@ const canadaLine: [number, number][] [] = [
             )
         }
 
-                            export default Map;
+        export default Map;
 
