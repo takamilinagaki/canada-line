@@ -35,7 +35,9 @@ const canadaLine: [number, number][][] = [
             return(
                 <MapContainer
                     style={{height: '91.5vh'}}
-                    center={[49.195556, -123.122111]} zoom={12} scrollWheelZoom={true}>
+                    // center={[49.195556, -123.122111]} 
+                    zoom={12} 
+                    scrollWheelZoom={true}>
                 
                         <TileLayer 
                                     attribution='&copy; <a href="https://github.com/takamilinagaki/canada-line">By Takami Inagaki</a> contributors'
