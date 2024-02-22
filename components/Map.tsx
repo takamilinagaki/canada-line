@@ -1,7 +1,8 @@
 
+
 import { MapContainer, TileLayer, Popup, Polyline, CircleMarker } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
-
+import React from "react";
 
 
 const colourOption = {color: '#009BC9'};
@@ -35,7 +36,7 @@ const canadaLine: [number, number][][] = [
             return(
                 <MapContainer
                     style={{height: '91.5vh'}}
-                    // center={[49.195556, -123.122111]} 
+                    center={[49.195556, -123.122111]} 
                     zoom={12} 
                     scrollWheelZoom={true}>
                 
